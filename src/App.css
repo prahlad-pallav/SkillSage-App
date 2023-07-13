@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+@media (max-width: 850px){
+    
+
+    .template h1{
+        font-size: 24px;
+    }
+    .temp{
+        width: auto;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 10px;
+        gap: 10px;
+        padding: 10px;
+    }
+    .nav button{
+        font-size: 14px;
+    }
+
+    .home,.about,.contact{
+        font-size: 20px;
+    }
+    .img{
+        display: none;
+    }
+    .template{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+}
+
+@media (max-width:500px){
+
+    .signup{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .temp{
+        width: auto;
+    }
+    .template h1{
+        font-size: 24px;
+    }
+    .template p{
+        font-size: 16px;
+    }
+    .form p{
+        font-size: 14px;
+    }
+    .form input{
+        font-size: 14px;
+    }
+}
+
+
+
+@media (max-width: 400px){
+    .template h1{
+        font-size: 20px;
+        margin-top: -10px;
+    }
+    .template p{
+        font-size: 14px;
+    }
+}
